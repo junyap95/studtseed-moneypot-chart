@@ -1,0 +1,63 @@
+/*.widget-wrapper{*/
+/*  font-family: Montserrat,sans-serif;*/
+/*}*/
+
+section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#imagePot {
+  position: absolute;
+  pointer-events: none;
+}
+
+.chartjs-tooltip {
+  position: absolute; /* This makes sure the tooltip is positioned relative to its container */
+  z-index: 9999; /* Ensures the tooltip appears above other elements */
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  color: white;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.1s ease;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.contact-button {
+  background-color: transparent !important;
+  border-color: black !important;
+  border-style: solid !important;
+  /*margin-left: 20px !important;*/
+}
+
+.contact-button > span {
+  font-size: 15px !important;
+  color: black !important;
+}
+
+td > label {
+  padding-right: 0px !important;
+}
+
+span.label {
+  padding-left: 10px;
+}
